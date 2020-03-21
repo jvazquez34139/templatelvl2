@@ -1,0 +1,8 @@
+extends extends/layout.pug
+
+block content
+  if locals.user
+    h1 hello user #{locals.user.username || "Guest"}
+  else
+    
+    h1 hello user Guest

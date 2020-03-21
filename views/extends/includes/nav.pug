@@ -1,0 +1,18 @@
+nav
+  ul.row
+    if locals.user
+      li
+        a(href="/logout").col logout
+    else 
+      
+      li
+        a(href="/login").col login
+    li
+      a(href="/").col home
+    if locals.user
+      if locals.user.admin
+        li
+          a(href="/admin").col admin
+    
+      
+    

@@ -1,0 +1,18 @@
+nav{
+  margin-left: auto;
+  ul.row{
+    padding: 0;
+  }
+  ul li{
+    margin-left: 1.25rem;
+    display: inline-block;
+    &:last-child{
+      margin-right: 1.25rem;
+    }
+    a{
+      font-size: 1.25rem;
+      color: $accent-color;
+      font-weight: 600;
+    }
+  }
+}

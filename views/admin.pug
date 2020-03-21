@@ -1,0 +1,25 @@
+extends extends/layout
+
+block content
+  .search.row
+    input(type="text", name="search", placeholder="search").col
+    button.col
+      h3 Search
+  .idea-container.row
+    each val, index in userArray
+      .card.col
+        .title 
+          a(href="/delete"+val.id)
+            .remove X
+          h2 #{val.username}
+        .desc 
+          table
+            tr 
+              td Email:
+              td #{val.email}
+            tr
+              td Password:
+              td #{val.password} 
+            tr
+              td Admin status:
+              td #{val.admin}

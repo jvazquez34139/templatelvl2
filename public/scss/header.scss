@@ -1,0 +1,26 @@
+header{
+  *{
+    // border: red solid 1px;
+
+  }
+  background: $primary-color;
+  color: #fff;
+  min-height: 20vh;
+  padding:10px 5%;
+  h1{
+    margin: 4% auto 2% auto;
+    font-size: 3.125rem;
+    text-align: center;
+    color: $accent-color;
+
+  }
+  h3{
+    margin:0 auto 0 auto;
+  }
+
+}
+header>.row{
+  // margin-top: 30;
+  // border: red solid 1px;
+
+}

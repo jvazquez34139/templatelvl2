@@ -1,0 +1,16 @@
+extends extends/layout.pug
+
+block content
+  h2.title Login
+  form(method="post", action="/login")
+    .error #{message1}
+    h2 Username
+    input(type="text", id="username", name="username").row
+    h2 Password
+    .error #{message2}
+    input(type="password", id="Password", name="password").row
+    button(type="submit", name="submit").row 
+      .col
+        h3 Login
+    h5 Don't have an account? 
+      a(href="/register").col Register here!

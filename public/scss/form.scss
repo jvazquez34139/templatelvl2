@@ -1,0 +1,36 @@
+form{
+  width: 50%;
+  min-height: 300px;
+  margin: 20px auto auto auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 1px $accent-color solid;
+  input, textarea, button{
+    outline: none;
+
+  }
+  input{
+    height: 40px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 10px 0 20px 0;
+  }
+  textarea{
+    height: 200px;
+    padding: 5px;
+    margin: 10 0;
+  }
+  button{
+    background: $accent-color;
+    height: 40px;
+    padding: 5px 0 5px 0;
+    font-size: 1.25rem;
+    color: $primary-color;
+    .col {
+      margin: 0 auto 0 auto;
+    }
+  }
+}
+.error{
+  color: #f00;
+}
